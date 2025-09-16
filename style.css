@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'pmd';
+    src: url(FOT-UDMarugo_SmallPr6-B.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'pmd';
+}
+
+.content {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    padding: 0 36%;
+}
+
+.content-text h1 {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.content-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+img {
+  width: 75%;
+  height: 75%;
+}
+
+.content-bottom {
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    padding: 0 36%;
+}
+
+.content-bottom-text h1 {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
