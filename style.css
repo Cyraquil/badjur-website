@@ -1,8 +1,30 @@
+/*Background*/
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #8cb9d5;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBvbHlnb24gcG9pbnRzPSI0MCwwIDgwLDQwIDQwLDgwIDAsNDAiIGZpbGw9IiM2ODg4YmQiLz4KPC9zdmc+');
+    background-repeat: repeat;
+    background-size: 80px 80px;
+    animation: moveDiamond 8s linear infinite;
+  }
+
+@keyframes moveDiamond {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 80px 80px;
+    }
+  }
+
+/*font*/  
 @font-face {
     font-family: 'pmd';
     src: url(FOT-UDMarugo_SmallPr6-B.otf);
 }
 
+/*global*/
 *{
     margin: 0;
     padding: 0;
