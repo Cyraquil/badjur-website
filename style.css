@@ -66,5 +66,5 @@ img {
 .content-bottom-text h1 {
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    color: rgba(255, 255, 255, 0);
 }
