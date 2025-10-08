@@ -84,7 +84,7 @@ main h2 {
 a {
   color: #d4d4d4;
   text-decoration: none;
-  padding: 10px 15px; 
+  padding: 10px 15px;
   margin: 0 10px;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
@@ -145,6 +145,11 @@ section h3 {
   border-radius: 4px;
   padding: 5px;
   width: 65%;
+}
+
+.iotwlink {
+  display: block;
+  padding: 0;
 }
 
 /*Footer*/
